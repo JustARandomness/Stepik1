@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .page-top {
   width: 100%;
   height: 700px;
@@ -20,6 +24,11 @@
   font-family: 'Gilroy-Bold';
   font-size: 18px;
   line-height: 22px;
+}
+
+.header-link, .header-link:active {
+  text-decoration: none;
+  color: #828282;
 }
 
 .header-link:hover {
@@ -167,6 +176,10 @@
 
  .no-glow {
   color: #E5E5E5;
+ }
+
+ .stars {
+  cursor: default;
  }
 
  .stars i {
